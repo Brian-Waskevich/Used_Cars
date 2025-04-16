@@ -2,7 +2,7 @@ Used car sales data is evaluated using various regression techniques. Once the m
 
 Three different regression algorithms were used (Linear Regression, Ridge Regression, and LASSO Regression) to produce models, which were then compared against each other.
 
-For the linear regression, first polynomial features of increasing degree were iterated and cross-validated to determine the optimal degree without overfitting. After that, SequentialFeatureSelector was used to limit the resulting features to 6.
+For the linear regression, first, polynomial features of increasing degree were iterated and cross-validated to determine the optimal degree without overfitting. After that, SequentialFeatureSelector was used to limit the resulting features to 6.
 
 For both Ridge and LASSO regressions, GridSearchCV was used for hyperparameter selection of alpha.
 
